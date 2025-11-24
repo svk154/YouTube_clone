@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family-Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <a href="https://www.youtube.com/">
+                <img class="youtube-logo"  src="icons/youtube-logo.svg">
+            </a>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link"><img src="icons/home.svg">
+        <div>Home</div></div>
+        <div class="sidebar-link"><a href="https://www.youtube.com/hashtag/explore">
+            <img src="icons/explore.svg">
+        </a>     
+        <div>Explore</div></div>
+        <div class="sidebar-link">
+            <a href="https://www.youtube.com/feed/subscriptions">
+                <img src="icons/subscriptions.svg">
+            </a>
+        <div>subscriptions</div></div>
+        <div class="sidebar-link"><img src="icons/originals.svg">
+        <div>Originals</div></div>
+        <div class="sidebar-link">
+            <a href="https://music.youtube.com/">
+                <img src="icons/youtube-music.svg">
+            </a>
+        <div>YouTube Music</div></div>
+        <div class="sidebar-link"><img src="icons/library.svg">
+        <div>Library</div></div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=wboGYls1Bns">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/channel/UCKZSn5C-RzrLjuWJF8wWiDw">
+                            <img class="profile-picture" src="channel-pictures/channel-1.jpeg" >
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Pushpa 2 The Rule Teaser | Allu Arjun | Sukumar | Rashmika Mandanna |
+                        </p>
+                        <p class="video-author">
+                            Mythri Movie Makers
+                        </p>
+                        <p class="video-stats">
+                         121M views &#183; 8 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=2skoNGm3x08">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                    </a>
+                    <div class="video-time">8:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@saregamasouth">
+                            <img class="profile-picture" src="channel-pictures/channel-2.jpeg" >
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Dhop - Song Promo | Game Changer | Ram Charan, Kiara Advani | Thaman S | Shankar
+                        </p>
+                        <p class="video-author">
+                            Saregama Telugu
+                        </p>
+                        <p class="video-stats">
+                            128k views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=0iGlyPD4Kdc">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                    </a>
+                    <div class="video-time">9:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@FilmyMoji">
+                            <img class="profile-picture" src="channel-pictures/channel-3.jpeg" >
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Filmymoji || Middle Class Madhu || Class Leader || MCM
+                        </p>
+                        <p class="video-author">
+                            Filmymoji
+                        </p>
+                        <p class="video-stats">
+                            1.4M views &#183;  3 days ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=j9gsJF5RdRo">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    </a>
+                    <div class="video-time">1:47:19</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-4.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">   
+                            LIVE: PM participates in 'Ek Varsh-Parinaam Utkarsh' programme                       </p>
+                        <p class="video-author">
+                            Narendra Modi
+                        </p>
+                        <p class="video-stats">
+                            18M views &#183; 4 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=xLaLpMeOyHk">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                    </a>
+                    <div class="video-time">9:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-5.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Ancient City That Mastered Water  
+                        </p>
+                        <p class="video-author">
+                            Primal Space
+                        </p>
+                        <p class="video-stats">
+                            2.3M views &#183; 2 weeks agos  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                    <div class="video-time">3:54</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/watch?v=v-icNVDbVLk">
+                            <img class="profile-picture" src="channel-pictures/channel-6.jpeg" >
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            AIGIRI NANDINI [Hip Hop Version] - Brodha V LIVE in Bangalore
+                        </p>
+                        <p class="video-author">
+                            Brodha V
+                        </p>
+                        <p class="video-stats">
+                            34M views &#183; 9 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                    </a>
+                    <div class="video-time">10:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-7.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">  
+                            Why Planes Don't Fly Over Tibet
+                        </p>
+                        <p class="video-author">
+                            RealLifeLore
+                        </p>
+                        <p class="video-stats">
+                            8.M views &#183; 4 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                    <div class="video-time">7:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-8.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Shri Hari Storm ll Most Powerful Mantra Of Lord Vishnu.
+                        </p>
+                        <p class="video-author">
+                            Kanha
+                        </p>
+                        <p class="video-stats">
+                            3.9M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=eiGdsH1g20k">
+                        <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                    </a>
+                    <div class="video-time">3:43</div>
+    
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-9.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Vidya Vox - Be Free (Pallivaalu Bhadravattakam) ft. Vandana Iyer
+                        </p>
+                        <p class="video-author">
+                            Vidya Vox  
+                        </p>
+                        <p class="video-stats">
+                            436M views &#183; 7 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=g44VQxMcFH4">
+                        <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                    </a>
+                    <div class="video-time">2:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-10.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Full Video: Fear Song | Devara | NTR | Koratala Siva
+                        </p>
+                        <p class="video-author">
+                            T-Series Telugu
+                        </p>
+                        <p class="video-stats">
+                            12M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=pGvp5Q-1Yag">
+                        <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                    </a>
+                    <div class="video-time">8:14</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-11.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Australia v India 2024-25 | Third Test | Day Five
+                        </p>
+                        <p class="video-author">
+                            cricket.com.au
+                        </p>
+                        <p class="video-stats">
+                            4.5M views &#183; 9 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=ep1OOKfaBWU">
+                        <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                    </a>
+                    <div class="video-time">13:44</div>
+    
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-12.jpeg" >
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            India Pakistan 1971 War 50th Anniversary - How India became involved in Bangladesh Liberation War?
+
+                            
+                        </p>
+                        <p class="video-author">
+                            StudyIQ IAS
+                        </p>
+                        <p class="video-stats">
+                            65k views &#183; 3 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>  
+</body>
+</html>
